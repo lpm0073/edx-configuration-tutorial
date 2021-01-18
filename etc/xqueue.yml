@@ -1,0 +1,38 @@
+---
+# This file is created and updated by ansible, edit at your peril
+
+
+CONSUMER_DELAY: 10
+CSRF_COOKIE_SECURE: false
+DATABASES:
+    default:
+        ATOMIC_REQUESTS: true
+        CONN_MAX_AGE: 0
+        ENGINE: django.db.backends.mysql
+        HOST: localhost
+        NAME: xqueue
+        OPTIONS: {}
+        PASSWORD: UuIoT5y4cHI3VsgFjna7MtcLIgdJvzhJGUy
+        PORT: '3306'
+        USER: xqueue001
+LOCAL_LOGLEVEL: INFO
+LOGGING_ENV: sandbox
+LOG_DIR: /edx/var/logs/xqueue
+NEWRELIC_APPNAME: default_env-default_deployment-xqueue
+NEWRELIC_LICENSE_KEY: ''
+REQUESTS_BASIC_AUTH:
+- w2DU0ltHcDY1rXZPtf4nXODLxRaoZ03B1YZ
+- hsLrcGtP790TAQrWWD2NpErCrpOGeX4hZrj
+SESSION_COOKIE_SECURE: false
+SUBMISSION_PROCESSING_DELAY: 1
+SYSLOG_SERVER: localhost
+UPLOAD_BUCKET: sandbox-bucket
+UPLOAD_PATH_PREFIX: sandbox-xqueue
+USERS:
+    lms: 3YmoWAkm43CMGTqmfjgYRgN7huXaONe3FKj
+XQUEUES:
+    certificates: null
+    edX-Open_DemoX: http://localhost:18050
+    open-ended: null
+    open-ended-message: null
+    test-pull: null
